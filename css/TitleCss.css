@@ -1,0 +1,95 @@
+ /* To have a uniform design on the page*/
+ *{
+    margin-right: 0 ;
+    padding: 0; /* This paragraph has a padding of 0 pixels on all four sides. */
+    box-sizing: border-box;   /* all the divs are the same size */
+    scroll-behavior: smooth;  /* Add a smooth scrolling effect to the document*/
+}
+
+.content{
+    top:20%;
+    width:100%;
+    /* position: static;  */
+    /* padding: 60 px; */
+    display: flex;
+    justify-content: center; /* כדי שיהיה הכרטיס באמצע*/
+    flex-direction: row; /* על מנת שיהיה הכרטיסים אחד ליד השני רשמנו שורות ,ואם רצינו שיהיה אחד תחת השני אז הינו רושמים עמודה */
+    flex-wrap: wrap;    /* אם לא נשאר מקום בשורה אז הוא יורד שורה ושומר על העיצוב שלהם ולא מעמוס אותם באותו שורה  */
+    margin: 10px 10px 10px;
+    font-size:large;
+
+}
+
+body{
+    background:fixed linear-gradient(#666e6a6f, #61a872);
+    direction: rtl;
+    z-index: 1; /*  scroll*/
+}
+
+header{
+    position:absolute;
+    width: 100%;
+    height: 9%;
+    position:fixed; /*An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled*/
+    z-index: 1; /*  scroll*/
+    display: flex; /* כדי שיהיה אחד ליד השני  */
+    align-items: center; 
+    padding: 40px ;
+    
+    
+}
+
+
+/* משנה את מראה של התמונה מארבעת הזוויות */
+.logo-img{
+    border-radius: 20% ; 
+    
+    
+}
+.navigation{
+    margin: 10px 100px 10px ; /*down , rigth, top*/
+}
+.navigation a{
+    color: rgb(54, 48, 40);
+    text-decoration:none; /* כדי למחוק את הקו התחתון מהמילה */
+    font-size: 1.1em;
+    padding-left: 100px ;/* לעשות רווח בין v  */
+   
+}
+
+/* כשנשים את עכבר על המילה ישתנה את הצבע שלה */
+.navigation  a:hover{
+    color: black ;  
+    font-weight: bold; 
+}
+.btn a:hover{
+    color: black ;  
+    font-weight: bold;  
+}
+.btn{
+    text-decoration:none; /* כדי למחוק את הקו התחתון מהמילה */
+    position:fixed;
+    margin: 10px 10px 10px ;
+    left: 0;
+}
+
+.btn a{
+    color: rgb(129, 106, 84);
+    text-decoration:none; /* כדי למחוק את הקו התחתון מהמילה */
+    font-size: 1.1em;
+
+}
+
+button{
+    border: 1px solid rgb(58, 56, 56);  /* עובי מסגרת הכפתור */
+    border-radius: 4px;  /* כדי לעשות שיפוע בקצוות של הכפתור*/
+    padding: 3px 3px;   /* רווח בין המילה למסגרת מספר ראשון מלמעלה ולמטה ומספר שני משני צדדים */
+}
+
+.button1{
+    margin-right: 10px;  /* המרחק בין שני הכפתורים */
+}
+
+
+
+

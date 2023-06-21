@@ -1,0 +1,94 @@
+ /* על מנת לקבוע עיצוב אחיד בדף */
+*{
+    margin: 0 ;  /* הצמדה  */
+    box-sizing: border-box;   /* מכניס את מלבינים אחד בתוך השני */
+    scroll-behavior: smooth; /* כך ההתנהגות של הדף תהיה גמישה */
+    
+}
+
+
+.main{
+    width: 100%;
+    padding: 150px 90px 30px; /* the one value is top & buttom ,the second value right & left */
+  
+}
+
+.container{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    
+   
+}
+
+.container h1{
+    font-weight:normal;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    padding-right: 40px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+p{
+    padding-right: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 17px;
+}
+span{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.img-placeholder.Service_Purpose[_ngcontent-unu-c443] {
+    background-image: url(https://clickrevaha.molsa.gov.il/assets/images/product-page/service_small.svg);
+    /* padding-top: 70px; */
+    padding: 10px 0px 40px 20px;
+    margin-top: 10px;
+   
+}
+.img-placeholder[_ngcontent-unu-c443] {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/product-page/molsa_icon.svg);
+    margin-right: 40px;    
+}
+.img-placeholder.Service_Purpose[_ngcontent-unu-c443] h3{
+    /* width: 130px; */
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.spanSherot{
+    position:sticky;
+    padding-top: 0px;
+    margin-right: 30px;
+}
+.container h3{
+    font-weight:normal;
+    color: rgb(255, 255, 255);
+    padding: 150px 90px 30px; /* the one value is top & buttom ,the second value right & left */
+
+}
+.img-placeholder.Target_Community[_ngcontent-unu-c443] {
+    background-image: url(https://clickrevaha.molsa.gov.il/assets/images/product-page/audience_small.svg);
+    padding: 10px 0px 40px 20px;
+    margin-top: 30px;
+}
+.img-placeholder.Target_Community[_ngcontent-unu-c443] h3{
+    /* width: 130px; */
+    position:absolute;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.the_service{
+    position:sticky;
+   margin-right: 30px;
+    padding: 0px 90px 0px 30px; /* the one value is top & buttom ,the second value right & left */
+}
+
+
